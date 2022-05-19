@@ -1,0 +1,28 @@
+* OH HAI
+
+i wrongly estimated less than $\frac{1}{10}$ chance that math works in org mode now that it's been added to markdown
+
+more complicated expressions like $\sum_{i=0}^{n} x_{i}$ are apparently not recognized in org mode.
+
+verbatim is ignored, which is good:
+
+#+BEGIN_SRC tex
+$\sum_{i=0}^{n} x_{i}$
+#+END_SRC
+
+display math doesn't seem to work at all with two dollars on their own lines:
+
+$$
+\sum_{i=0}^n x_{i}
+$$
+
+or work properly with backslashed brackets:
+
+\[
+\sum_{i=0}^n x_{i}
+\]
+
+as well as the inline variant with backslashed parens: \( \sum_{i=0}^{n} x_{i}\)
+
+
+compare with [[file:README.md][markdown]] version of the same.
